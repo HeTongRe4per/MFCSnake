@@ -15,10 +15,6 @@ IMPLEMENT_DYNAMIC(CGGDlg, CDialogEx)
 CGGDlg::CGGDlg(CWnd* pParent /*=NULL*/)
 	: CDialogEx(CGGDlg::IDD, pParent)
 {
-<<<<<<< HEAD
-
-=======
->>>>>>> 78f0edb ('第一次提交')
 }
 
 CGGDlg::~CGGDlg()

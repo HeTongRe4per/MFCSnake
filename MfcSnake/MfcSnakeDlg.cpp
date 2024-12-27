@@ -147,20 +147,12 @@ void CMfcSnakeDlg::OnSysCommand(UINT nID, LPARAM lParam)
 
 void CMfcSnakeDlg::OnPaint()
 {
-<<<<<<< HEAD
-	// ================================ÓÎÏ·½çÃæ³õÊ¼»¯º¯Êı==============================
-=======
 	// ÓÎÏ·½çÃæ³õÊ¼»¯º¯Êı
->>>>>>> 78f0edb ('ç¬¬ä¸€æ¬¡æäº¤')
 	
 	CRect rect;
 	(this->GetDlgItem(IDC_game))->GetWindowRect(&rect);  // »ñÈ¡¿Ø¼şÏà¶ÔÓÚÆÁÄ»µÄÎ»ÖÃ
 	ScreenToClient(rect); // ×ª»¯ÎªÏà¶ÔÓÚ¿Í»§ÇøµÄÎ»ÖÃ
-<<<<<<< HEAD
-	GetDlgItem(IDC_game)->MoveWindow(rect.left, rect.top + 4, 760, 500, false);
-=======
 	GetDlgItem(IDC_game)->MoveWindow(rect.left + 4, rect.top + 4, 760, 500, false);
->>>>>>> 78f0edb ('ç¬¬ä¸€æ¬¡æäº¤')
 
 	CDC* pClientDC = GetDC();
 	(this->GetDlgItem(IDC_game))->GetWindowRect(&rect);  // »ñÈ¡¿Ø¼şÏà¶ÔÓÚÆÁÄ»µÄÎ»ÖÃ
@@ -217,8 +209,6 @@ HCURSOR CMfcSnakeDlg::OnQueryDragIcon()
 	return static_cast<HCURSOR>(m_hIcon);
 }
 
-<<<<<<< HEAD
-=======
 void CMfcSnakeDlg::OnWindowPosChanging(WINDOWPOS* lpwndpos) //½ûÖ¹´°¿Ú³ö½ç
 {
 	CDialogEx::OnWindowPosChanging(lpwndpos);
@@ -254,7 +244,6 @@ void CMfcSnakeDlg::OnWindowPosChanging(WINDOWPOS* lpwndpos) //½ûÖ¹´°¿Ú³ö½ç
 	}
 }
 
->>>>>>> 78f0edb ('ç¬¬ä¸€æ¬¡æäº¤')
 void CMfcSnakeDlg::SnakeInit()
 {
 	// »ñÈ¡ÓÎÏ·Çø
@@ -294,10 +283,6 @@ void CMfcSnakeDlg::OnBnClickedButtonStop()
 	// ÖØĞÂ¿ªÊ¼
 	gameOver();
 	SnakeInit();
-<<<<<<< HEAD
-	this->GetDlgItem(IDC_game)->SetFocus();
-=======
->>>>>>> 78f0edb ('ç¬¬ä¸€æ¬¡æäº¤')
 }
 
 void CMfcSnakeDlg::OnBnClickedButtonStart()
@@ -318,38 +303,21 @@ void CMfcSnakeDlg::OnBnClickedButtonStart()
 			SetTimer(1, speed, NULL);
 			SetDlgItemText(IDC_BUTTON_Start, _T("ÔİÍ£ÓÎÏ·"));
 		}
-<<<<<<< HEAD
-		this->GetDlgItem(IDC_game)->SetFocus();
-=======
->>>>>>> 78f0edb ('ç¬¬ä¸€æ¬¡æäº¤')
 	}
 }
 
 void CMfcSnakeDlg::OnTimer(UINT_PTR nIDEvent)
 {
 	// TODO: ÔÚ´ËÌí¼ÓÏûÏ¢´¦Àí³ÌĞò´úÂëºÍ/»òµ÷ÓÃÄ¬ÈÏÖµ
-<<<<<<< HEAD
-	// main function about snake
-=======
->>>>>>> 78f0edb ('ç¬¬ä¸€æ¬¡æäº¤')
 	UpdateData(true);
 	if (START && DEAD == false) {
 		switch (my_snake.direc)
 		{
-<<<<<<< HEAD
-		case 1:MvUp(); break;
-		case 2:MvDown(); break;
-		case 3:MvLeft(); break;
-		case 4:MvRight(); break;
-		default:
-			break;
-=======
 			case 1:MvUp(); break;
 			case 2:MvDown(); break;
 			case 3:MvLeft(); break;
 			case 4:MvRight(); break;
 			default:break;
->>>>>>> 78f0edb ('ç¬¬ä¸€æ¬¡æäº¤')
 		}
 		if (checkLive() == false) {
 			DEAD = true;
@@ -415,10 +383,6 @@ void CMfcSnakeDlg::MvDraw() // »­ÉßÒÆ¶¯Ê±
 {
     CDC* pdc = GetDlgItem(IDC_game)->GetWindowDC();
     if (pdc == nullptr) {
-<<<<<<< HEAD
-        // ´¦ÀíÎŞ·¨»ñÈ¡Éè±¸ÉÏÏÂÎÄµÄÇé¿ö
-=======
->>>>>>> 78f0edb ('ç¬¬ä¸€æ¬¡æäº¤')
         return;
     }
 
@@ -437,11 +401,7 @@ void CMfcSnakeDlg::MvDraw() // »­ÉßÒÆ¶¯Ê±
     pdc->DeleteDC();
 }
 
-<<<<<<< HEAD
-
-=======
 // ÉßµÄÒÆ¶¯
->>>>>>> 78f0edb ('ç¬¬ä¸€æ¬¡æäº¤')
 void CMfcSnakeDlg::MvUp()
 {
 	MvDraw();
@@ -506,10 +466,7 @@ void CMfcSnakeDlg::gameOver()
 {
 	KillTimer(1);
 	START = false;
-<<<<<<< HEAD
-=======
 	SetDlgItemText(IDC_BUTTON_Start, _T("¿ªÊ¼ÓÎÏ·"));
->>>>>>> 78f0edb ('ç¬¬ä¸€æ¬¡æäº¤')
 }
 
 void CMfcSnakeDlg::OnCbnSelchangeCombospeed() //ËÙ¶ÈÑ¡Ôñ
@@ -532,51 +489,10 @@ BOOL CMfcSnakeDlg::PreTranslateMessage(MSG* pMsg)
 		else if (my_snake.direc != 1 && (pMsg->wParam == VK_DOWN || pMsg->wParam == 's' || pMsg->wParam == 'S')) my_snake.direc = 2;
 		else if (my_snake.direc != 4 && (pMsg->wParam == VK_LEFT || pMsg->wParam == 'a' || pMsg->wParam == 'A')) my_snake.direc = 3;
 		else if (my_snake.direc != 3 && (pMsg->wParam == VK_RIGHT || pMsg->wParam == 'd' || pMsg->wParam == 'D')) my_snake.direc = 4;
-<<<<<<< HEAD
-=======
 		else if (pMsg->wParam == VK_SPACE) CMfcSnakeDlg::OnBnClickedButtonStart();
->>>>>>> 78f0edb ('ç¬¬ä¸€æ¬¡æäº¤')
 	}
 	return 0;
 }
-
-<<<<<<< HEAD
-void CMfcSnakeDlg::OnWindowPosChanging(WINDOWPOS* lpwndpos) //½ûÖ¹´°¿Ú³ö½ç
-{
-	CDialogEx::OnWindowPosChanging(lpwndpos);
-
-	// TODO: ÔÚ´Ë´¦Ìí¼ÓÏûÏ¢´¦Àí³ÌĞò´úÂë
-	// »ñÈ¡ÆÁÄ»¿í¶È
-	int nMaxX = GetSystemMetrics(SM_CXSCREEN);
-	// »ñÈ¡ÆÁÄ»¸ß¶È
-	int nMaxY = GetSystemMetrics(SM_CYSCREEN);
-
-	// ÅĞ¶Ï´°¿ÚX×ø±êÓĞÎŞ³¬¹ı×ó±ß×ÀÃæ¡£
-	if (lpwndpos->x < 0)
-	{
-		lpwndpos->x = 0;
-	}
-
-	// ÅĞ¶Ï´°¿ÚX×ø±êÓĞÎŞ³¬¹ıÓÒ±ß×ÀÃæ¡£
-	if (lpwndpos->x + lpwndpos->cx > nMaxX)
-	{
-		lpwndpos->x = nMaxX - lpwndpos->cx;
-	}
-
-	// ÅĞ¶Ï´°¿ÚY×ø±êÓĞÎŞ³¬¹ı¶¥²¿×ÀÃæ¡£
-	if (lpwndpos->y < 0)
-	{
-		lpwndpos->y = 0;
-	}
-
-	// ÅĞ¶Ï´°¿ÚY×ø±êÓĞÎŞ³¬¹ıµ×²¿×ÀÃæ¡£
-	if (lpwndpos->y + lpwndpos->cy > nMaxY)
-	{
-		lpwndpos->y = nMaxY - lpwndpos->cy;
-	}
-}
-=======
->>>>>>> 78f0edb ('ç¬¬ä¸€æ¬¡æäº¤')
 
 void CMfcSnakeDlg::OnBnClickedMusic()
 {

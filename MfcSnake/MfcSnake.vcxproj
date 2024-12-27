@@ -176,11 +176,8 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
-<<<<<<< HEAD
     <None Include="ReadMe.txt" />
-=======
     <None Include="C:\Users\zhang\Desktop\Snake\MfcSnake\MfcSnake\res\MfcSnake.ico" />
->>>>>>> 78f0edb ('第一次提交')
     <None Include="res\apple.bmp" />
     <None Include="res\bg.bmp" />
     <None Include="res\bgm.wav" />
@@ -196,10 +193,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GGDlg.h" />
-<<<<<<< HEAD
     <ClInclude Include="MfcSnake.h" />
-=======
->>>>>>> 78f0edb ('第一次提交')
     <ClInclude Include="MfcSnakeDlg.h" />
     <ClInclude Include="PromatDlg.h" />
     <ClInclude Include="Resource.h" />

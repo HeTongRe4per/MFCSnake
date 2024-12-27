@@ -43,21 +43,6 @@ public:
 	afx_msg void OnCbnSelchangeCombospeed();
 	CComboBox Box;
 	CEdit EDIT_Score;
-<<<<<<< HEAD
-	CFont m_showFont1;
-	CFont m_showFont2;
-	CFont m_showFont3;
-	CBrush m_brush[4];
-	CRect m_map[30][38];
-	Point pos ;//= { 0, 0 };
-	CSnake my_snake;
-	CPen pen1;
-	int speed ;//= 150; // …Ë÷√ÀŸ∂»
-	int score ;//= 0;
-	bool INIT ;//= true;
-	bool START ;//= false;
-	bool DEAD ;//= false;
-=======
 	CBrush m_brush[4];
 	CRect m_map[25][38];
 	Point pos ;
@@ -68,7 +53,6 @@ public:
 	bool INIT ;
 	bool START ;
 	bool DEAD ;
->>>>>>> 78f0edb ('Á¨¨‰∏ÄÊ¨°Êèê‰∫§')
 	void SnakeInit();
 	bool setBean();
 	void drawSnake();

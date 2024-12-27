@@ -19,11 +19,4 @@ public:
 	void LeftMove();  // Ïò×óÔË¶¯
 	void RightMove();  // ÏòÓÒÔË¶¯
 	void init();
-<<<<<<< HEAD
-
-
-private:
-
-=======
->>>>>>> 78f0edb ('ç¬¬ä¸€æ¬¡æäº¤')
 };

@@ -1,20 +1,14 @@
-﻿生成启动时间为 2024/4/28 下午 3:42:11。
-     1>项目“E:\Code\VS2010project\MfcSnake\MfcSnake\MfcSnake.vcxproj”在节点 2 上(build 个目标)。
+﻿生成启动时间为 2024/12/27 下午 1:41:04。
+     1>项目“I:\test\MFCSnake\MfcSnake\MfcSnake.vcxproj”在节点 2 上(build 个目标)。
      1>InitializeBuildStatus:
-         正在创建“x64\Release\MfcSnake.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+         正在对“x64\Release\MfcSnake.unsuccessfulbuild”执行 Touch 任务。
        ClCompile:
-         E:\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"x64\Release\MfcSnake.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
-         stdafx.cpp
-         E:\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"x64\Release\MfcSnake.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt GGDlg.cpp MfcSnake.cpp MfcSnakeDlg.cpp PromatDlg.cpp Snake.cpp
-         GGDlg.cpp
-         MfcSnake.cpp
-         MfcSnakeDlg.cpp
-         PromatDlg.cpp
-         Snake.cpp
+         所有输出均为最新。
+         所有输出均为最新。
        ResourceCompile:
          C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /Ix64\Release\ /nologo /fo"x64\Release\MfcSnake.res" MfcSnake.rc 
        Link:
-         E:\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Code\VS2010project\MfcSnake\x64\Release\MfcSnake.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /ManifestFile:"x64\Release\MfcSnake.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Code\VS2010project\MfcSnake\x64\Release\MfcSnake.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Code\VS2010project\MfcSnake\x64\Release\MfcSnake.lib" /MACHINE:X64 x64\Release\MfcSnake.res
+         E:\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"I:\test\MFCSnake\x64\Release\MfcSnake.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /ManifestFile:"x64\Release\MfcSnake.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"I:\test\MFCSnake\x64\Release\MfcSnake.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"I:\test\MFCSnake\x64\Release\MfcSnake.lib" /MACHINE:X64 x64\Release\MfcSnake.res
          x64\Release\GGDlg.obj
          x64\Release\MfcSnake.obj
          x64\Release\MfcSnakeDlg.obj
@@ -23,14 +17,14 @@
          x64\Release\stdafx.obj
          正在生成代码
          已完成代码的生成
-         MfcSnake.vcxproj -> E:\Code\VS2010project\MfcSnake\x64\Release\MfcSnake.exe
+         MfcSnake.vcxproj -> I:\test\MFCSnake\x64\Release\MfcSnake.exe
        Manifest:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\Code\VS2010project\MfcSnake\x64\Release\MfcSnake.exe;#1" /manifest x64\Release\MfcSnake.exe.intermediate.manifest "E:\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"I:\test\MFCSnake\x64\Release\MfcSnake.exe;#1" /manifest x64\Release\MfcSnake.exe.intermediate.manifest "E:\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
        FinalizeBuildStatus:
          正在删除文件“x64\Release\MfcSnake.unsuccessfulbuild”。
          正在对“x64\Release\MfcSnake.lastbuildstate”执行 Touch 任务。
-     1>已完成生成项目“E:\Code\VS2010project\MfcSnake\MfcSnake\MfcSnake.vcxproj”(build 个目标)的操作。
+     1>已完成生成项目“I:\test\MFCSnake\MfcSnake\MfcSnake.vcxproj”(build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:04.00
+已用时间 00:00:01.88
